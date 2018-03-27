@@ -1,0 +1,28 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 2  0 0 0  0 1 0
+
+Vertex   poster.vert
+Fragment poster.frag
+Geometry poster.geom
+Program Poster  uY <.75 1. 2.2>							\
+				uTol <.2 1. 2.2>						\
+				uShrink <0. 1. 1.>						\
+				uFlat <true>							\
+				uKa <0. 0.1 1.0>						\
+				uKd <0. 0.6 1.0>						\
+				uKs <0. 0.3 1.0>						\
+				uShininess <1. 10. 5000.>				\
+				uLightX <-20. 5. 20.>   				\
+				uLightY <-20. 10. 20.>					\
+				uLightZ <-20. 20. 20.>					\
+				uMaterialBaseColor {0. .7695 .9453 1.}	\
+				uMaterialFadeColor {1. 0. 0. 1.}		\
+				uSpecularColor {1. 1. 1. 1.}			\
+				uNoiseAmp <0. 1. 3.>					\
+				uNoiseFreq <0. 3. 10.>
+				
+Color 0. .7695 .9453
+#Sphere 1. 60 60
+Obj giraffe.obj
+ 

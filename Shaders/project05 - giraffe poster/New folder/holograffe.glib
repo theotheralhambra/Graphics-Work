@@ -1,0 +1,16 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3  0 0 0  0 1 0
+
+Vertex   holograffe.vert
+Fragment holograffe.frag
+Geometry holograffe.geom
+Program  Holograffe  						\
+		 uShrink <0. 1. 1.>					\
+		 uColor { 0., 0.730, 0.844, 1. }	\
+		 uSilh <false>
+
+#uAlpha <0. 1. 1.>
+
+Color 0.004 0.449 0.516
+Obj giraffe.obj

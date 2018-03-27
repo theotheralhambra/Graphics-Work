@@ -1,0 +1,18 @@
+##OpenGL GLIB
+
+Ortho -1. 1.  -1. 1.
+
+LookAt  0. 0. 2.  0. 0. 0.  0. 1. 0.
+
+#Texture2D  6  kec.bmp
+Texture2D  6  image02.bmp
+
+Vertex   kec.vert
+Fragment kec.frag
+Program  KEC					\
+	uTexUnit 6				\
+	uPower <0.5 1. 2.>			\
+	uS0 <0. .5 1.>				\
+	uT0 <0. .5 1.>
+
+QuadXY  0.1  1.

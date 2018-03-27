@@ -1,0 +1,5 @@
+
+ERROR: 0:70: 'sharpenImage' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:69: 'assign' :  cannot convert from 'const highp float' to '3-component vector of highp float'
+
+

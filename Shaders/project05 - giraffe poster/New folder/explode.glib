@@ -1,0 +1,17 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 5  0 0 0  0 1 0
+Background [1. 1. 1.]
+Pointsize 2.
+
+Vertex   explode.vert
+Geometry explode.geom
+Fragment explode.frag
+Program  Explode uLevel <0 4 6>				\
+			 uTime <0. 0. 20.>			\
+			 uGravity <-0.5 -0.075 0.5>	\
+			 uVelScale <1. 30. 50.>
+
+Color	.5 1. .5
+Scale .25 .25 .25
+Obj giraffe.obj

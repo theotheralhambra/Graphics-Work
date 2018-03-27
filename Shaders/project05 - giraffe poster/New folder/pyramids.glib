@@ -1,0 +1,20 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+
+Vertex   pyramids.vert
+Fragment pyramids.frag
+Program  Pyramids					\
+	uAng <-3.14159 0.785398 3.14159>		\
+	uBumpDensity <5. 16. 100.>			\
+	uBumpHeight <-.06 .005 .06>			\
+	uSurfaceColor {0.7 0.8 0.1 1.}		\
+	uLightX <-10.  0. 10.0>			\
+	uLightY <-10. 10. 10.0>			\
+	uLightZ <-10. 10. 10.0>			\
+	uAmbient <0. 0.1 .4>
+
+#Sphere 1 20 20
+Teapot

@@ -1,0 +1,28 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 2  0 0 0  0 1 0
+#Background [.45 .45 .45]	#color background??
+Pointsize 2.
+
+Vertex   final.vert
+Fragment final.frag
+Geometry final.geom
+Program Final  uKa <0. 0.1 1.0>							\
+				uKd <0. 0.6 1.0>							\
+				uKs <0. 0.3 1.0>							\
+				uShininess <1. 10. 5000.>					\
+				uLightX <-20. 5. 20.>   					\
+				uLightY <-20. 10. 20.>						\
+				uLightZ <-20. 20. 20.>						\
+				uBlue <false>								\
+				uRed <true>									\
+				uMaterialBaseColorBlue {0. .7695 .9453 1.}	\
+				uMaterialBaseColorRed {1. 0. 0. 1.}			\
+				uMaterialBaseColorWhite {1. 1. 1. 1.}		\
+				uMaterialBaseColorPurple {1. 0. 1. 1.}		\
+				uSpecularColor {1. 1. 1. 1.}				\
+				uLevel <0 4 6>								\
+				uTime <0. 0. 25.>							\
+				uVelScale <1. 30. 50.>
+				
+Obj earth.obj

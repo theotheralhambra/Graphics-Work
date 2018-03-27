@@ -1,0 +1,4 @@
+
+ERROR: 0:108: 'assign' : l-value required "vColor" (cannot modify a varying)
+
+

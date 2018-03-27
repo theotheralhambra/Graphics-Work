@@ -1,0 +1,20 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3  0 0 0  0 1 0
+
+Vertex   lego.vert
+Fragment lego.frag
+Geometry lego.geom
+Program  Lego   					\
+		 uModelCoords <true>		\
+		 uLevel <0 3 3>				\
+		 uQuantize <2. 50. 50.>		\
+		 uColor { 1.00 0.65 0.40 1. }
+
+Color 1. 1. 0.
+#Teapot
+#Torus 1. 0.5 20 20
+Obj giraffe.obj
+#Obj skeleton.obj
+#Obj dino.obj
+#Obj bunny.obj

@@ -1,0 +1,13 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3  0 0 0  0 1 0
+
+Vertex   shrink.vert
+Fragment shrink.frag
+Geometry shrink.geom
+Program  ShrinkTriangles  uShrink <0. 1. 1.>
+
+Color 1. 1. 0.
+#Teapot
+#Torus 1. 0.5 20 20
+Obj giraffe.obj

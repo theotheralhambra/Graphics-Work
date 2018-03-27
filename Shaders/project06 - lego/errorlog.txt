@@ -1,0 +1,4 @@
+
+ERROR: 0:53: 'gl_ModelMatrix' : undeclared identifier 
+
+

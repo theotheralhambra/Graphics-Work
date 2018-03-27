@@ -1,0 +1,4 @@
+
+ERROR: 0:37: '&&' : wrong operand types no operation '&&' exists that takes a left-hand operand of type 'uniform highp bool' and a right operand of type 'varying highp float' (or there is no acceptable conversion)
+
+

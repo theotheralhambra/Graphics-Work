@@ -1,0 +1,9 @@
+
+ERROR: 0:60: 'vMC' : undeclared identifier 
+ERROR: 0:61: 'texture' : no matching overloaded function found (using implicit conversion) 
+ERROR: 0:60: '=' :  cannot convert from 'const highp float' to '4-component vector of highp float'
+ERROR: 0:63: 'xy' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:63: 'z' : field selection requires structure, vector, or matrix on left hand side 
+ERROR: 0:63: 'constructor' : not enough data provided for construction 
+
+
